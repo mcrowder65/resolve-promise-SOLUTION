@@ -1,4 +1,4 @@
-Welcome back! I hope you enjoyed the exercise and were able to solve it.
+Welcome back! I hope you enjoyed the exercise and you were able to solve it.
 
 Let's solve the exercise
 
@@ -13,4 +13,7 @@ Great, I hope that wasn't too bad.
 
 If you noticed here, we actually have `.then` called twice here. This is called promise chaining.
 
-We'll go more into depth about promise chaining in the next video, see you there!
+Since getDogNames is returned in a promise resolution callback, in order to get the resulting value of that result,
+we have to call .then on that result in order to log it properly.
+
+We'll go more into depth about promise chaining in the next video, I'll see you there
