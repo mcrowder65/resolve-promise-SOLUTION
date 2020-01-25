@@ -9,7 +9,8 @@ utilities
   .then(console.log)
 ```
 
-Great, I hope that wasn't too bad.
+Now if you look at the terminal, you can that it's just an array of dog breeds, rather than an array of objects
+with dog breeds in them
 
 If you noticed here, we actually have `.then` called twice here. This is called promise chaining.
 
